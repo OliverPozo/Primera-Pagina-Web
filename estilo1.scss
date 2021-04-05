@@ -1,0 +1,26 @@
+
+$position : absolute;
+.texto-encima{
+   position: $position;
+   top: 50px;
+   left: 80px;
+   color:#eb4034;
+}
+.texto-encimaMedio{
+   position: $position;
+   top: 50px;
+   left: 700px;
+   color:#eb4034;
+}
+.texto-encimaCostado{
+   position: $position;
+   top: 50px;
+   left: 1300px;
+   color:#eb4034;
+}
+.centrado{
+   position: $position;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
